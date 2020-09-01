@@ -1,0 +1,16 @@
+.Text {
+    font-size: 20px;
+}
+
+.Text .a {
+    font-style: italic;
+}
+
+.Text .b dd {
+    margin-left: 0px;
+    color: #9c9c98;
+}
+
+.Text .b a {
+    text-decoration: none;
+}

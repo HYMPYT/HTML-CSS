@@ -1,0 +1,61 @@
+.ListStyle {
+    list-style: none;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    padding: 0px 30px 30px 20px;
+}
+
+.ListStyle li {
+    padding: 10px 20px;
+}
+
+.ListStyle li:nth-child(even) {
+    background-color: #65bac9;
+}
+
+.ListStyle li:nth-child(odd) {
+    background-color: #84d9e8;
+}
+
+.ListStyle li::after {
+    content: "\2718";
+    color: red;
+    margin-left: 25px;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    height: 16px;
+    width: 16px;
+    background-image: url(icons/unchecked_16.png);
+}
+
+.container input:checked ~ .checkmark {
+    background-image: url(icons/checked_16.png);
+}
+
+.container input:checked ~ .liText {
+    text-decoration: line-through;
+}

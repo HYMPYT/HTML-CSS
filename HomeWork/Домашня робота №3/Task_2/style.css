@@ -1,0 +1,33 @@
+.menu {
+    width: 250px;
+}
+
+.menu .menuItem {
+    font-family: sans-serif;
+    display: block;
+    width: 250px;
+    background-color: #6f727d;
+    text-transform: uppercase;
+}
+
+.menu .menuItem a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu .menuItem a img {
+    width: 75px;
+    padding-left: 15px;
+    margin-bottom: -30px;
+}
+
+.menu .menuItem a span {
+    display: inline-block;
+    padding: 35px 0px 30px 30px;
+}
+
+.menu .menuItem a:hover {
+    transition: 1s;
+    background-color: #3d3f45;
+}

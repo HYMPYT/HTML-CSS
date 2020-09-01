@@ -1,0 +1,38 @@
+.myCardContainer {
+    margin: 4rem;
+    background-color: rgba(0, 0, 0, 0.55);
+    background-image: url(img/Texture-Antique-Old-Background-Parchment-Paper.jpg);
+    background-size: cover;
+    overflow: hidden;
+    -webkit-box-shadow: 17px 23px 43px 9px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 17px 23px 43px 9px rgba(0, 0, 0, 0.71);
+    box-shadow: 17px 23px 43px 9px rgba(0, 0, 0, 0.71);
+    border-style: solid;
+    border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+}
+
+.myCard {
+    margin: 3rem;
+}
+
+.myCard p {
+    margin-top: 2rem;
+}
+
+.myCard img{
+    border-radius: 80px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border: 0px solid #000000;
+    width: 100%;
+    max-height: 700px;
+}
+
+.myCard .description {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

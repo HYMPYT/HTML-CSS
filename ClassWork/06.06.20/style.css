@@ -1,0 +1,44 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+#first {
+    color: green;
+}
+
+.tt {
+    color: blue;
+}
+
+.list {
+    font-size: 24px;
+    background-color: blue;
+    color: white;
+    
+}    
+
+.list li {
+    background-color: crimson;
+    margin: 10px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+span {
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: lower-alpha;
+    font-size: 30px;
+}
+img {
+    width: 20px;
+}
+
+#sp {
+    color: green;
+}
